@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    
+}
+
+img {
+    position: absolute;
+    left: 450px;
+   
+}
+h2 {
+    font-size: 20px;
+    color: cornsilk;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    color:  rgba(128, 128, 128, 0.083);
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap'); /* Fonte importada do https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap'); /* Fonte utilizada nos parágrafos */
+
+    
+* {
+    padding: 0;
+    margin:  0;
+}
+
+ body{ 
+     background-image: url(../imagem/blb.png);
+     background-attachment: fixed; /* O background da página fica fixada */
+     
+}
+
+.edição {
+        font-style: italic;
+        font-family: 'IM Fell English SC', serif;
+        color: rgb(153, 24, 24);
+        padding-top: 300px;  /* Move o texto da pádina para baixo */
+        padding-left: 30px;
+        font-size: 55px;
+        
+       
+    }
+
+
+main {
+    position: absolute;
+}
+
+img {
+    border-radius: 2% ;
+    border:2px solid rgba(78, 78, 78, 0.582); 
+}
+
+.grade {
+    position: absolute;
+    top: 400px;
+
+    display: grid; /* Alinha as imagens uma do lado da outra */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+
+
+}
+
+.lanches {
+    padding: 0px 20px 0px 60px;  /* Espaçamento entre as imagens*/ 
+    
+}
+
+ .zoom {
+    transition: all 0.5s;  /*  Tempo de Transição */
+}
+
+.zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);   /* A imagem da uma "zoom" ao passar o cursor em cima*/
+}
+
+.text {
+    position: relative;
+    width: 200px;   
+}
+
+
+
+.text {
+    position: absolute;     /*  Posiciona as caixinhas de texto da página */
+    color: rgba(208, 23, 23, 0.686);
+    border-radius: 8%;
+   
+    border: 2px  solid rgb(145, 135, 135);
+    background-color: rgba(90, 83, 83, 0.378);
+    font-family: 'IM Fell English SC', serif;
+    font-size: 27px;
+    width: 17%; 
+}
+
+
+
+.scary {
+    position: absolute;
+    left:100px;
+    top: 300px;
+    border-radius: 50%;
+    
+}
+
+.clássico {
+    font-family: 'IM Fell English SC', serif;
+    color: rgb(153, 24, 24);
+    position: absolute;
+    top: 788px;
+    left: 15px;
+    font-size: 40px;
+}    
+
+.hamburger {
+    position: absolute;
+    top: 850px;
+
+    display: grid; /* Alinha as imagens uma do lado da outra */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+
+    
+}
+
+
+.freddy {
+border: 0;
+left:500px;
+position: absolute;
+top: 325px;
+
+}
+
+.bebidas {
+    position: absolute;
+    top: 1270px;
+
+    display: grid; /* Alinha as imagens uma do lado da outra */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.drink {
+    font-family: 'IM Fell English SC', serif;
+    color: rgb(153, 24, 24);
+    position: absolute;
+    top: 1200px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    font-family: 'IM Fell English SC', serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: white;
+
+    transition-property: all;
+    transition-duration: 1.5;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: block;
+    padding: 35px 25px;
+    
+    
+}
+
+.a:hover {
+    background-color: rgba(95, 18, 18, 0.76);
+
+    
+}
+
+.icon {
+    border:0;
+}
+
+.movie {
+    border: none;
+    position: absolute;
+    left: 750px;
+    padding: 10px;
+
+}
+

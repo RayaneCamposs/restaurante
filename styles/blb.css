@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    font-family: 'IM Fell English SC', serif;
+}
+
+body {
+    background-color:rgb(0, 0, 0);
+}
+
+ul {
+    list-style: none; 
+    display: flex; /* usado para alinha todos os elementos em uma linha */
+    justify-content: space-around;  /* Os itens são uniformemente distribuídos */
+}
+
+li {
+    color: white;
+}
+
+
+a {
+    text-decoration: none; /* usado para retirar a linha do link */
+    color: rgb(255, 255, 255);
+    display: block; /* para que ele possa se comportar como bloco */
+    padding: 35px 25px;
+}
+
+header a:hover {
+    background-color: rgba(95, 18, 18, 0.76);
+}
+
+.banner button {
+    position:absolute; /* usado para posicionar o botão em cima da imagem */
+    top:70%; /* espaço acima do botão */
+    left:20%;
+    right: 50%;
+    width: 300px;
+    height: 70px;
+    background-color: rgba(3, 3, 3, 0.842);
+    border-bottom:black;
+    font-family: 'IM Fell English SC', serif;
+      
+}
+
+.banner a {
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 15px; 
+}
+
+.banner button:hover{
+    background-color: rgba(95, 18, 18, 0.76) ;
+}
+
+.banner {
+   display: flex;
+   justify-content: center;
+   position:relative;
+}
+
+.details { 
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.76);
+    justify-content: space-around;
+    font-family: 'IM Fell English SC', serif;
+    color: rgb(255, 255, 255);
+}
+
+.details p {
+    font-size: 150%;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 0px;
+}
+
+.bottle {
+    display: inline-flex;
+}
+
+.bottle a:hover {
+    color: rgba(95, 18, 18, 0.76);
+}
+
+.bottle a {
+    font-family: 'IM Fell English SC', serif;
+    padding: 80px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: center; 
+    
+}
+    
+    
+
+
+

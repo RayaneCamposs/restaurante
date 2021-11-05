@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap'); 
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'IM Fell English SC', serif;
+    text-decoration: aliceblue;
+    color:white;
+
+}
+
+h1 {
+    color: darkred;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 20px;
+}
+
+#p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/*Menu */
+
+header {
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: 'IM Fell English SC', serif;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: block;
+    padding: 30px 20px;
+
+}
+
+ a:hover {
+    transform: 0.5s;
+    background-color: rgb(95, 18, 18);
+    color: ghostwhite;
+}
+
+#linha1{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#img1{
+    float:left;
+}
+ 
+#texto{
+    display: inline-block;
+}
+ 
+#linha2{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#img2{
+    float:left;
+}
+ 
+#texto2{
+    float:left;
+}
+
+#linha3{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#img3{
+    float:left;
+}
+ 
+#texto3{
+    float:left;
+}
+ 
+#linha4{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+
+#img4{
+    float:left;
+}
+
+#linha5{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#img5{
+    float:left;
+}
+ 
+#texto5{
+    float:left;
+}  
+#linha1{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    }
+    #img1{
+    float:left
+    }
+    #texto1{
+    float:right;
+    }
+    .linha2{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    }
+    #img2{
+    float:right
+    }
+    #img3{
+    float:left
+    }

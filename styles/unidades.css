@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: 'IM Fell English SC', serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: block;
+    padding: 35px 25px;
+}
+
+a:hover {
+    background-color: rgb(124, 24, 24);
+
+}
+.titulos {
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(../imagem/unidades.png);
+
+}
+h1,h2{
+    color: rgb(95, 18,18);
+}

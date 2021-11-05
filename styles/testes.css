@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+* {
+    margin: 0%;
+    
+}
+
+body {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: block;
+    padding: 35px 25px;
+    font-family: 'IM Fell English SC', serif;;
+}
+
+header a:hover {
+    background-color: rgba(95, 18, 18, 0.76);
+}
+
+
+header {
+    background-color: black;
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.article h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.article  {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding: 5%;
+    text-align: left;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+
+.icones {
+    display: flex;
+    justify-content: center; 
+}

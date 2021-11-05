@@ -1,0 +1,138 @@
+body {
+    font-family: 'IM Fell English SC', serif;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(../imagem/fundo.png);
+    border: 0px;
+    padding: 0%;
+}
+img {
+    width: 150px;
+}
+ul {
+    list-style: none; 
+    display: flex; /* usado para alinha todos os elementos em uma linha */
+    justify-content: space-around;  /* Os itens são uniformemente distribuídos */
+
+} 
+ 
+a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-family:'IM Fell English SC', serif ;
+   display: inline-block;
+  
+}
+nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+}
+nav .logo {
+    float: left;
+    display: block;
+}
+nav .logo2 {
+    float: right;
+    display: block;
+}
+nav a {
+    float: right;
+    display: block;
+    padding: 35px 47px;
+    color: ghostwhite;
+
+}
+nav a:hover {
+    transform: 0.5s;
+    background-color: rgb(95, 18, 18);
+    color: ghostwhite;
+}
+
+main {
+    margin: 0%;
+    border: 0px;
+    padding: 0%;
+    color:ghostwhite;
+    
+}
+.container {
+    background-color: rgba(128, 15, 15, 0.747);
+    max-width: 700px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;  
+    box-shadow: 5px 5px 15px  rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 50px 50px;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 550px;
+    height: 600px;
+
+}
+
+h1 {
+    position:relative;
+    margin-bottom: 2rem;
+}
+.idk {
+    position: relative;
+}
+.idk input {
+   
+    font-size: 0.9rem;
+    color: black;
+    border: none;
+}
+.idk input::placeholder {
+    color: ghostwhite;
+
+}
+.pocas{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: black;
+    cursor: pointer;
+    color: ghostwhite;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1rem;
+    width: 500px;
+}
+p {
+    font-size: 1rem;
+}
+textarea{
+    background-color:rgba(0, 0, 0, 0.267);
+    color: ghostwhite;
+    width: 500px;
+    outline: none;
+}
+.giveup {
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 500px;
+    height: 1.3rem;
+}
+
+button {
+    background-color: black;
+    color: ghostwhite;
+    width: 250px;
+    height: 30px;
+    font-size: 1rem;
+}
+footer {
+    position: absolute;
+    bottom: -350px;
+    background-color: rgba(128, 15, 15, 0.747);
+    color: ghostwhite;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
